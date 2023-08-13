@@ -1,0 +1,262 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: montserrat;
+
+}
+.text-design{
+   
+   
+    margin-top: -10px;
+  
+    float: right;
+    margin-right: 33px;
+
+}
+
+.design-nav{
+    background: #46B2B2;
+    height: 45px;
+    width: 100%;
+
+}
+nav{
+    background: white;
+    height: 70px;
+    width: 100%;
+    
+}
+label.logo{
+    color: black;
+    font-size: 20px;
+    line-height: 60px;
+    padding: 0 50px;
+    font-weight: bold;
+    margin-left: 50px;
+
+
+}
+nav ul{
+    float: right;
+    margin-right: 100px;
+}
+.img{
+    margin-left: 30px;
+    width: 30px;
+    margin-top: 10px;
+}
+nav div p{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 15px;
+
+}
+.text-right{
+    margin-right: 15px;
+}
+nav ul li{
+display: inline-block;
+line-height: 80px;
+margin: 0 5px;
+}
+nav ul li a{
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+
+}
+a.active,a:hover{
+    background: #46B2B2;
+    opacity:0.8;
+    transition: all 0.4s ease 0s;
+
+}
+.div-img{
+    display: flex;
+    justify-content: space-between;
+    height: 30vh;
+  
+  
+    margin-left: 9.6%;
+    margin-top: 130px;
+    border: 1px solid black;
+    width: 1170px;
+   
+}
+.image-div1{
+    margin-left: 70px;
+}
+.div-design{
+    display: flex;
+   
+    height: 60vh;
+  
+    width:85.5%;
+    margin-left: 6.6%;
+   
+}
+.div-container-right{
+    padding-left: 100px;
+}
+.div-container-left{
+    padding-left: 100px;
+}
+.div-container-left1{
+    padding-left: 144px;
+}
+.number{
+    color: #46B2B2;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.div-container{
+    display: flex;
+    margin-left: 87px;
+    margin-top: 20px;
+    
+}
+.div-left{
+    margin-left: 13%;
+}
+.heading{
+    margin-top: 50px;
+    margin-left: 70px;
+    font-size: 2.5rem;
+    
+}
+.heading2{
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 1.4rem;
+   
+}
+.heading3{
+    
+    font-size: 1.1rem;
+    margin-left: 10px;
+    
+
+}
+
+.paragraph-design{
+    margin-left: 10px;
+    margin-top: 10px;
+    color: rgb(169, 169, 169);
+    
+}
+.text-design2{
+    font-size: 1.3rem;
+    text-align:justify;
+    margin-top: 20px;
+    margin-left: 70px;
+    color: rgb(167, 165, 165);
+    letter-spacing: 1.5px;
+}
+.buton{
+    background-color:#46B2B2; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-left: 70px;
+    cursor: pointer;
+
+   
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+.factory{
+    margin-left: 90px;
+    width:90%;
+}
+.buton2{
+    background-color:#46B2B2; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+
+   
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+.style-nav {
+    
+    
+    box-shadow: 5px 5px 5px gray;
+
+  }
+.pum-img{
+    width:112%;
+    padding-left: 10px;
+}
+.checkbtn{
+    font-size:30px;
+    color:white;
+    float:right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display:none;
+}
+#check{
+    display: none;
+
+}
+@media(max-width:952px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+
+    }
+}
+@media (max-width:858px){
+    .checkbtn{
+        display:block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height:100vh;
+        background: #2c3e50;
+        top:80px;
+        left:0;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display:block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size:20px;
+    }
+    a:hover,a.active{
+        background: none;
+        color: #0082e6;
+
+    }
+    #check:checked~ul{
+        left:0;
+    }
+}
+
